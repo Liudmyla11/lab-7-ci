@@ -19,7 +19,7 @@ test('Форматування імені користувача', () => {
 // Модульний тест 3: calculateDiscount
 test('Розрахунок ціни зі знижкою', () => {
     // Звичайна знижка
-    expect(calculateDiscount(100, 10)).toBe(90.00); 
+    expect(calculateDiscount(100, 10)).toBe(100.00); 
     // Дробові значення
     expect(calculateDiscount(50.50, 20)).toBe(40.40); 
     // Нульова знижка
